@@ -1,4 +1,4 @@
-Sdocument.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {
     // Sprache erkennen
     const userLanguage = navigator.language || navigator.userLanguage;
     console.log("Erkannte Sprache:", userLanguage);
