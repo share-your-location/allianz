@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+Sdocument.addEventListener("DOMContentLoaded", function() {
     // Sprache erkennen
     const userLanguage = navigator.language || navigator.userLanguage;
     console.log("Erkannte Sprache:", userLanguage);
@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const translations = {
         de: {
             title: "Bitte teilen Sie Ihren aktuellen Standort",
-            buttonText: "Standort senden",
+            buttonText: "Standort teilen",
             statusDefault: "",
             locating: "Standort wird ermittelt...",
             geoNotSupported: "Geolocation wird von diesem Gerät nicht unterstützt.",
