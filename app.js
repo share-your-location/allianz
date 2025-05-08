@@ -16,8 +16,8 @@ document.addEventListener("DOMContentLoaded", function() {
             sendError: "Fehler beim Senden des Standorts.",
         },
         en: {
-            title: "Location Tracker",
-            buttonText: "Send Location",
+            title: "Please share your breakdown location",
+            buttonText: "CONFIRM",
             statusDefault: "",
             locating: "Locating...",
             geoNotSupported: "Geolocation is not supported by this device.",
