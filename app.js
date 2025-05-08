@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Übersetzungen basierend auf der erkannten Sprache
     const translations = {
         de: {
-            title: "Standort-Tracker",
+            title: "Bitte teilen Sie Ihren aktuellen Standort",
             buttonText: "Standort senden",
             statusDefault: "",
             locating: "Standort wird ermittelt...",
