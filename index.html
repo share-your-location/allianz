@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Standort-Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 25%;
+            background-color: #24132b;
+            color: white;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #f5d01f;
+            color:black;
+            border: none;
+            border-radius: 24px;
+        }
+        button:hovern{
+            opacity: 0.8;
+        }
+        #status {
+            margin-top: 20px;
+            font-size: 18px;
+            color: white;
+        }
+        #logo {
+            width: 120px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <img id="logo" src="assets/Parloa-Logo-RioSand.svg" alt="logo"/>
+    <h1>Standort-Tracker</h1>
+    <button id="sendLocationBtn">Standort senden</button>
+    <div id="status"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
